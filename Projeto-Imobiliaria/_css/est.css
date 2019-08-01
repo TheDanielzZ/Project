@@ -1,0 +1,78 @@
+@charset "utf-8"
+
+/*cabeçalho*/
+
+header#cabecalho {
+	border-bottom: 1px #000000 solid;
+	height: 400px;
+}
+
+header#cabecalho h1 {
+	text-align: center;
+	font-family:
+	margin-bottom: 0px;
+}
+
+header#cabecalho h2 {
+	text-align: center;
+	margin-top: -10px;
+}
+
+/*Interface*/
+
+body {
+	font-family: arial, sans-serif;		
+	background-color: #888888;
+	color: rgba(0,0,0,1);
+}
+
+div#interface {
+	width: 1200px;
+	background-color: white;
+	margin: 100px auto 0px auto;
+	box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+	padding: 10px;
+}
+
+/*Menu principal*/
+
+nav#menu-principal {
+	display: block;
+}
+
+nav#menu-principal ul {
+	list-style: none;
+	text-transform: uppercase;
+	position: absolute;
+	top: -15px;
+	left: 470px;
+}
+
+nav#menu-principal li {
+	display: inline-block;
+	padding: 4px;
+	margin: 1px;
+	background-color: yellow;
+	transition: background-color 1s;
+}
+
+nav#menu-principal li:hover {
+	background-color: #06e4bc
+}
+
+nav#menu-principal a{
+	color: black;
+	text-decoration: none;
+	font-family: arial, sans-serif;
+}
+
+nav#menu-principal a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+nav#menu-principal h1 {
+	display: none;
+}
+
+

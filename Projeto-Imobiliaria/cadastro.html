@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cadastre-se</title>
+	<meta charset="UTF-8">
+	<title>RDV Imobiliária</title>
+	<link rel="stylesheet" type="text/css" href="_css/est.css">
+	<script type="text/javascript" src="_javascript/index.js"></script>
+</head>
+<body>
+<div id="interface">
+		<header id="cabecalho">
+		<hgroup>
+			<h1>RDV-Cadastro</h1>
+			<h2></h2>
+		<hgroup>
+	
+		</header>
+
+<nav id="menu-principal">
+	<h1>Menu Principal</h1>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="">Alugar imóvel</a></li>
+		<li><a href="">Anunciar imóvel</a></li>
+		<li><a href="">Área empresarial</a></li>
+		<li><a href="quem-somos.html">Quem somos</a></li>
+		<li><a href="">Minha Área</a></li>
+		<li><a href="login.html">Login</a></li>
+	</ul>
+
+
+<p>Empresa? <a href="cadastro-empresa.html">clique aqui</a></p></legend>
+
+<form method="post" id="cadastro" action="">
+
+<fieldset>
+	<legend>Informações pessoais</legend>
+	<p><label for="tNome">Nome:</label><input type="text" name="nome" id="tNome" size="40" maxlength="45" placeholder="Nome Completo" required></p>
+	<p><label for="cCPF">CPF:<input type="number" name="tCPF" id="cCPF" size="14" maxlength="14" placeholder="000.000.000-00" required></label></p>
+	<p><label for="cRG">RG:<input type="number" name="tRG" id="cRG" size="12" maxlength="12" placeholder="EX.:00.000.000-0" required></label></p>
+	<label for="cOrg">Órgão Emissor:</label><input type="text" name="tOrg" id="cOrg" size="20" maxlength="20" required>
+	<label for="cData">Data de Expedição:</label><input type="date" name="tData" id="cData" > 
+</fieldset>
+<fieldset>
+	<legend>Endereço</legend>
+	<p><label>Logradouro:</label><input type="text" name="tRua" id="cRua" size="50" maxlength="50" placeholder="Rua, Av, Travessa" required></p>
+	<p><label>Número:</label><input type="number" name="tNum" id="cNum" min="0" max="99999" required></p>
+	<p><label>Complemento:</label><input type="text" name="tComp" id="cComp" size="50" maxlength="50"></p>
+	<p><label for="cCEP">CEP:</label><input type="text" name="tCEP" id="cCEP" size="5" maxlength="5"> - <input type="text" name="CEP2" id="cCEP2" size="3" maxlength="3"></p>
+	<p><label>Cidade:</label><input type="" name=""></p>
+	<p><label for="estado">Estado:</label>
+	<select name="estado"> 
+    <option value="ac">Acre</option> 
+    <option value="al">Alagoas</option> 
+    <option value="am">Amazonas</option> 
+    <option value="ap">Amapá</option> 
+    <option value="ba">Bahia</option> 
+    <option value="ce">Ceará</option> 
+    <option value="df">Distrito Federal</option> 
+    <option value="es">Espírito Santo</option> 
+    <option value="go">Goiás</option> 
+    <option value="ma">Maranhão</option> 
+    <option value="mt">Mato Grosso</option> 
+    <option value="ms">Mato Grosso do Sul</option> 
+    <option value="mg">Minas Gerais</option> 
+    <option value="pa">Pará</option> 
+    <option value="pb">Paraíba</option> 
+    <option value="pr">Paraná</option> 
+    <option value="pe">Pernambuco</option> 
+    <option value="pi">Piauí</option> 
+    <option value="rj">Rio de Janeiro</option> 
+    <option value="rn">Rio Grande do Norte</option> 
+    <option value="ro">Rondônia</option> 
+    <option value="rs">Rio Grande do Sul</option> 
+    <option value="rr">Roraima</option> 
+    <option value="sc">Santa Catarina</option> 
+    <option value="se">Sergipe</option> 
+    <option value="sp">São Paulo</option> 
+    <option value="to">Tocantins</option> 
+   </select></p>
+</fieldset>
+<fieldset>
+	<legend>Conta Bancária</legend>
+	<label>Nº da Conta:<input type="" name=""></label> 	<label>Dígito:<input type="" name=""></label>
+	<p><label>Agência:<input type="" name=""></label></p>
+	<p><label>Banco:<input type="" name=""></label></p>
+</fieldset>
+<fieldset>
+	<legend>Dados de Login</legend>
+	<p><label for="cEmail">E-mail:<input type="E-mail" name="tEmail" id="cEmail" size="40" maxlength="40" placeholder="Seu E-mail" required></label></p>
+	<p><label for="Imagem">Imagem do Perfil:</label><input type="file" name="tImagem" id="Imagem"></p>
+	<p><label for="cSenha">Senha:</label><input type="password" name="tSenha" id="cSenha" size="15" maxlength="15" placeholder="Máx 15 dígitos"></p>
+	<p><label for="cConfirmSenha">Confirmar senha:</label><input type="password" name="tConfirmSenha" id="cConfirmSenha" size="15" maxlength="15"></p>
+</fieldset>
+<p><input type="submit" name="tBoT" id="cBoT">
+
+</form>
+</body>
+</html>
